@@ -5,5 +5,6 @@ export interface ButtonProps {
     title: string;
     sizes?: "small" | "medium" | "large";
     shapes?: "rounded-sm" | "rounded-md" | "rounded-full";
-    className?: string
+    styles?: string;
+
 }
